@@ -1,10 +1,11 @@
 import * as React from "react"
 import PropTypes from "prop-types"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   return (
-    <header>
-      <div className="text-3xl font-bold underline">Beam</div>
+    <header className="padding-default">
+      <StaticImage src="../images/beam-logo.png" />
     </header>
   )
 }
