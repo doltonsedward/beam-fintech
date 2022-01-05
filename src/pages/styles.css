@@ -1,4 +1,6 @@
 .section__two {
+  padding: 0 100px;
+  background-color: #fafbff;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,6 +13,13 @@
 .section__two .container__login {
   padding: 0 100px;
   max-width: 95%;
+}
+
+.section__two input {
+  width: 100%;
+  padding: 5px 12px;
+  border-radius: 8.99671px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .btn-facebook {
