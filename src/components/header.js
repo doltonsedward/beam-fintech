@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   return (
-    <header className="padding-default">
+    <header>
       <StaticImage src="../images/beam-logo.png" />
     </header>
   )
