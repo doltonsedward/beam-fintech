@@ -1,0 +1,27 @@
+.section__two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section__two .title {
+  line-height: 51px;
+}
+
+.section__two .container__login {
+  padding: 0 100px;
+  max-width: 95%;
+}
+
+.btn-facebook {
+  background-color: #3a589b;
+}
+
+.line {
+  content: "";
+  position: relative;
+  top: 0;
+  background-color: #e5e5e5;
+  width: 146.29px;
+  height: 1px;
+}
